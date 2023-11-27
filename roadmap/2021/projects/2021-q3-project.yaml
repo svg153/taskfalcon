@@ -1,0 +1,9 @@
+project:
+  name: Main Project
+  start: 2021-07-01
+
+tasks:
+  - task: T1
+    name: First task
+    efforts: 8h
+    assign: c

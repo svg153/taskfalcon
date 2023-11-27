@@ -1,0 +1,12 @@
+resources:
+  - resource: jl
+    name: JL
+    dailymax: 7h
+  - resource: c
+    name: C
+  - resource: d
+    name: D
+  - resource: s
+    name: S
+  - resource: svg153
+    name: svg153

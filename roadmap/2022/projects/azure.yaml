@@ -1,0 +1,15 @@
+project:
+  name: Main Project
+  start: 2022-07-04
+
+tasks:
+  - task: a1
+    name: First task
+    efforts: 8h
+    assign: c
+
+  - task: a2
+    name: Second task
+    efforts: 12h
+    assign: d
+    depends: a1

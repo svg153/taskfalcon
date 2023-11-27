@@ -1,0 +1,8 @@
+project:
+  name: 2022
+  start: 2022-01-10
+  end: 2022-12-30
+
+imports:
+  - 2022q2.yaml
+  - 2022q3.yaml

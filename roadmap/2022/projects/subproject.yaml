@@ -1,0 +1,19 @@
+project:
+  name: Main Project
+  start: 2022-07-04
+
+tasks:
+  - task: T1
+    name: First task
+    efforts: 8h
+    assign: c
+
+  - task: T2
+    name: Second task
+    efforts: 12h
+    assign: svg153,s
+    depends: T1
+
+  - milestone: M1
+    name: Done
+    depends: T2

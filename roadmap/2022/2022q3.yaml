@@ -1,0 +1,7 @@
+project:
+  name: 2022q3
+  start: 2022-07-04
+  end: 2022-10-02
+
+imports:
+  - ./projects/azure.yaml

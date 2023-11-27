@@ -1,0 +1,3 @@
+resources:
+  - filter: 1hSupportPerDay             # Creates a new filter
+    dailymax: 1h                        # This limits resources to 1h max per day

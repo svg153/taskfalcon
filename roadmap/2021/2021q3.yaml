@@ -1,0 +1,7 @@
+project:
+  name: 2021q3
+  start: 2021-07-01
+  end: 2021-10-01
+
+imports:
+  - ./projects/2021-q3-project.yaml
