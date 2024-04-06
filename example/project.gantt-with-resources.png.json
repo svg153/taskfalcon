@@ -1,0 +1,14 @@
+{
+  "description": "ClickMap file for /home/svg153/REPOSITORIOS/0_WORK/0_PEZA/project.gantt-with-resources.png",
+  "tasks": {
+    "0": "T1",
+    "1": "T1",
+    "2": "T2",
+    "3": "T2",
+    "4": "M1"
+  },
+  "resources": {
+    "1": "W2",
+    "3": "W1"
+  }
+}

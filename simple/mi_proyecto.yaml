@@ -1,0 +1,49 @@
+project:
+  name: Desarrollo de Aplicación Móvil
+  start: 2024-04-01
+
+tasks:
+  - task: Investigación de Mercado
+    start: 2024-04-01
+    efforts: 5d
+    length: 10d
+    assign: Equipo de Investigación
+
+  - task: Diseño de Interfaz de Usuario
+    start: 2024-04-06
+    efforts: 7d
+    assign: Equipo de Diseño
+
+  - task: Desarrollo de Backend
+    start: 2024-04-15
+    efforts: 14d
+    assign: Equipo de Desarrollo Backend
+
+  - task: Desarrollo de Frontend
+    start: 2024-04-29
+    efforts: 14d
+    assign: Equipo de Desarrollo Frontend
+
+  - task: Pruebas y Depuración
+    start: 2024-05-13
+    efforts: 7d
+    assign: Equipo de Pruebas
+
+  - milestone: Lanzamiento de la Aplicación
+    depends: Desarrollo de Backend, Desarrollo de Frontend, Pruebas y Depuración
+
+resources:
+  - resource: Equipo de Investigación
+    name: Investigador
+
+  - resource: Equipo de Diseño
+    name: Diseñador
+
+  - resource: Equipo de Desarrollo Backend
+    name: Desarrollador Backend
+
+  - resource: Equipo de Desarrollo Frontend
+    name: Desarrollador Frontend
+
+  - resource: Equipo de Pruebas
+    name: Tester
